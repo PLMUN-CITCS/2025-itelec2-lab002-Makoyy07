@@ -1,15 +1,18 @@
 # Mc James Jardiolin
 # ITELEC2
-# Problem Set 01 - Problem 02
-# Square the Number Program
+# Problem Set 01 - Problem 01
+# Basic Arithmetic Program
 
 def main():
-    print("Square the Number Program")
+    # Read input
+    a = int(input())
+    b = int(input())
 
-    number = int(input("Enter a number: "))
-
-    # Print the square with two decimal places
-    print(f"The square of {number} is {number * number:.2f}")
+    # Perform operations and print results
+    print(f"The sum is {a + b}")
+    print(f"The difference is {a - b}")
+    print(f"The product is {a * b}")
+    print(f"The quotient is {a / b:.2f}")  # Ensures two decimal places
 
 if __name__ == "__main__":
     main()
