@@ -7,9 +7,7 @@ def main():
     print("Square the Number Program")
     
     number = int(input("Enter a number: "))
+   print(f"The square of {number} is {(number * number):.2f}")
     
-    print(f"The square of {number} is {(number * number):.2f}")
-    
-
 if __name__ == "__main__":
     main()
